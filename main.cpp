@@ -5,7 +5,9 @@ using std::cout;
 
 int main()
 {
+    int num[2];
     cout<<"Hi, please enter two numbers: ";
-
-    return 0;
+    cin >> num[0] >> num[1];
+    cout << num[0] << " " << num[1] << std::endl;   
+ return 0;
 }
